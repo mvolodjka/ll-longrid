@@ -1,0 +1,1495 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  font-size: 16px;
+}
+
+html, body {
+width: 100%;
+position: relative;
+overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none ;
+  color: inherit;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+ul {
+  list-style: none;
+}
+input,
+select,
+button,
+textarea {
+  outline: none;
+  border: none;
+}
+button {
+  cursor: pointer;
+}
+/*-------------------END BASE STYLE----------------------------------*/
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url('3966.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RobotoMedium';
+  src: url('roboto-medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RobotoBlack';
+  src: url('roboto-black.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RobotoItalic';
+  src: url('roboto-italic.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+/*-------------------END FONTS STYLE---------------------------------*/
+/*!!!!!!!!!!!!!!!!!!!STYLE CSS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+body {
+  font-family: 'RobotoRegular';
+  font-size: 18px;
+  color: #000;
+  background-color: #fff;
+}
+
+.wrap {
+  max-width: 1103px;
+  position: relative;
+  margin: 0 auto;
+  padding: 30px 0;
+  box-sizing: border-box;
+}
+/*------------------END BODY && WRAP BASE STYLE------------------------------*/
+header {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background: url(header_bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 125px;
+  color: #fff;
+  position: relative;
+}
+.landlord {
+  margin-bottom: 135px;
+}
+.logo {
+  width: 150px;
+  display: inline-block;
+  margin-bottom: 80px;
+}
+br.desctop {display: inline}
+.h25 {
+	font-size: 0.6em;
+	line-height: 1.2;
+	display: block;
+	margin-top: 10px;
+}
+h1 {
+  font-size: 3em;
+  font-family: 'RobotoBlack';
+  margin-bottom: 60px;
+  text-transform: uppercase;
+}
+.header_descr {
+  font-size: 1em;
+  font-family: 'RobotoMedium';
+  margin-bottom: 40px;
+}
+.social {
+  position: absolute;
+  left: 0;
+  top: 240px;
+  background: #252525;
+}
+.social a {
+  display: block;
+  padding: 15px;
+}
+.social img {
+  max-width: 25px;
+}
+/*-------------------END HEADER--------------------------------------*/
+/*+++++++++++++++++++START MAIN++++++++++++++++++++++++++++++++++++++*/
+.wrap p {
+  text-align: justify;
+  margin-bottom: 15px;
+}
+.wrap .ital {
+  font-family: 'RobotoItalic';
+  text-align: right;
+}
+.info1 {
+  padding: 0;
+  text-align: center;
+  border-top: 2px solid #221e1f;
+  border-bottom: 2px solid #221e1f;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.info1_item {
+  width: 300px;
+  height: 300px;
+  padding-top: 100px;
+  background: url(fon1.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+}
+.info1_item span {
+  text-align: center;
+}
+.info1_item span:nth-child(1) {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  display: block;
+}
+.info1_item span:nth-child(2) {
+  font-family: 'RobotoBlack';
+  font-size: 2.5em;
+  padding-left: 15px;
+}
+.info1_item span:nth-child(3) {
+  font-family: 'RobotoBlack';
+  font-size: 2.5em;
+  padding-left: 13px;
+  margin-top: -15px;
+}
+.info1_item span:nth-child(4) {
+  font-family: 'RobotoBlack';
+  font-size: 1.5em;
+  padding-left: 13px;
+  margin-top: -15px;
+  display: block;
+}
+.info1_item_hr {
+  width: 2px;
+  height: 270px;
+  background: #221e1f;
+}
+.info2 {
+  font-family: 'RobotoBlack';
+  font-size: 1.5em;
+  text-align: center;
+  padding: 25px 0;
+  border-bottom: 2px solid #221e1f;
+  margin-bottom: 33px;
+}
+.screen {
+  width: 100%;
+  position: relative;
+}
+.un {
+  background: url(bg2.jpg) no-repeat;
+  height: 550px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+h2 {
+  font-size: 3em;
+  font-family: 'RobotoBlack';
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+h3 {
+  font-size: 2em;
+  font-family: 'RobotoBlack';
+  margin-bottom: 40px;
+  text-align: center;
+}
+.dos {
+  height: 550px;
+  background: url(dos.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.benefits__number {
+  opacity: 0;
+}
+.chart1 {
+  z-index: 2;
+  overflow: hidden;
+  position: relative;
+  padding-left: 70px;
+  transform: scale(0.8);
+  margin-top: -50px;
+}
+.kukyryza {
+  position: absolute;
+  right: 0;
+  top: 61%;
+}
+.kukyryza2 {
+  position: absolute;
+  left: 0;
+  top: 20%;
+  max-width: 340px;
+}
+.bar1 {
+  z-index: 2;
+  position: relative;
+  margin-bottom: 10px;
+  transform: scale(0.8);
+  margin-top: -50px;
+}
+.bar3 {
+  position: relative;
+  margin-bottom: 10px;
+  transform: scale(0.8);
+  margin-top: -50px;
+}
+.bar3_des {
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
+.bar3_des p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.bar3_des p:nth-child(2) {
+  margin-bottom: 35px;
+}
+.bar3_des p span {
+  margin-left: 10px;
+}
+.b4_1 {
+  max-width: 910px;
+  height: 367px;
+  background: url(b4_1.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  z-index: 2;
+  margin: auto;
+  position: relative;
+}
+.b4_1 span {
+  opacity: 0;
+  -webkit-transition: all 1.5s;
+  -moz-transition: all 1.5s;
+  -o-transition: all 1.5s;
+  transition: all 1.5s;
+  position: absolute;
+  display: inline-block;
+}
+.b4_3 {
+  margin: auto;
+  display: block;
+}
+.s1 {
+  left: 40%;
+}
+.s2 {
+  right: 5%;
+}
+.b4_2 {
+  position: absolute;
+  left: 47px;
+  bottom: -400px;
+  display: inline-block;
+  -webkit-transition: all 1.5s;
+  -moz-transition: all 1.5s;
+  -o-transition: all 1.5s;
+  transition: all 1.5s;
+}
+.b3_1 {
+  width: 642px;
+  height: 358px;
+  background: url(b3_1.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  z-index: 2;
+  padding-bottom: 7px;
+  position: relative;
+  margin: auto;
+}
+.ccc {
+  margin: auto;
+  display: block;
+}
+.b3_2 {
+  position: absolute;
+  left: 94px;
+  bottom: -600px;
+  -webkit-transition: all 1.5s;
+  -moz-transition: all 1.5s;
+  -o-transition: all 1.5s;
+  transition: all 1.5s;
+}
+.bar1_des {
+  position: absolute;
+  right: -55px;
+  top: 50px;
+}
+.bar1_des p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.bar1_des p:nth-child(2) {
+  margin-bottom: 35px;
+}
+.bar1_des p span {
+  margin-left: 15px;
+  position: relative;
+	text-align: left;
+}
+.bar1_des p span:before {
+  position: absolute;
+  content: '-';
+  left: -10px;
+}
+.bbbb {
+  display: block;
+  margin: auto;
+}
+.b1 {
+  background: url(bar1.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 659px;
+  height: 367px;
+  overflow: hidden;
+  z-index: 2;
+  position: relative;
+  margin: auto;
+}
+.b2 {
+  display: inline-block;
+  position: absolute;
+  left: 110px;
+  -webkit-transition: all 1.5s;
+  -moz-transition: all 1.5s;
+  -o-transition: all 1.5s;
+  transition: all 1.5s;
+  bottom: -400px;
+}
+.ch2 {
+  display: inline-block;
+  -webkit-transition: all 1.5s;
+  -moz-transition: all 1.5s;
+  -o-transition: all 1.5s;
+  transition: all 1.5s;
+  bottom: -420px;
+  position: absolute;
+}
+.bg_abs1 {
+  position: absolute;
+  right: 0;
+  bottom: -160px;
+}
+.ferma {
+  background: url(ferma_bg.png) no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+.map1,
+.map2 {
+  margin: -110px auto 0;
+  max-width: 1186px;
+  position: relative;
+  transform: scale(0.75);
+}
+.map2 {
+  margin-top: -130px;
+}
+.map2 .un_ano {
+  background: url(2017year.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.map2 .dos_ano {
+  background: url(2018year.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.map_info {
+  position: absolute;
+  right: 120px;
+  top: 45px;
+}
+.map_text {
+  font-family: 'RobotoItalic';
+  position: absolute;
+  left: 120px;
+  bottom: 245px;
+}
+.year {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.year img {
+  margin-right: 10px;
+}
+.obl {
+  position: absolute;
+  font-size: 1em;
+}
+.num,
+.num1 {
+  opacity: 0;
+  width: 65px;
+  height: 30px;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 1.7em;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.un_ano {
+  background: url(2015year.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.dos_ano {
+  background: url(2016year.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.chernigov {
+  top: 109px;
+  right: 43%;
+}
+.sumska {
+  top: 129px;
+  right: 28%;
+}
+.kharkiv {
+  top: 253px;
+  right: 18%;
+}
+.poltava {
+  top: 253px;
+  right: 33%;
+}
+.cherkas {
+  top: 265px;
+  right: 43%;
+}
+.kyev {
+  top: 209px;
+  right: 50%;
+}
+.gitomir {
+  top: 170px;
+  right: 60%;
+}
+.vinica {
+  top: 331px;
+  right: 60%;
+}
+.khmvel {
+  top: 260px;
+  right: 69%;
+}
+.ternopil {
+  top: 265px;
+  right: 76%;
+}
+.kirovograd {
+  top: 383px;
+  right: 40%;
+}
+.mikolaev {
+  top: 476px;
+  right: 40%;
+}
+.odesa {
+  top: 476px;
+  right: 52%;
+}
+.dnepr {
+  top: 383px;
+  right: 30%;
+}
+.tres {
+  background: url(tres.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 363px;
+  box-sizing: border-box;
+  padding: 68px 0;
+}
+.tres p {
+  max-width: 583px;
+  margin: auto;
+  text-align: center;
+}
+.tres_title {
+  font-family: 'RobotoBlack';
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 45px;
+  text-transform: uppercase;
+}
+.review {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+.review img {
+  max-width: 282px;
+  margin-right: 45px;
+}
+.review hr {
+  height: 2px;
+  background: #fcb338;
+  margin: 20px 0;
+  border: none;
+}
+.review_name {
+  font-family: 'RobotoBlack';
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+.review_position {
+  font-weight: bold;
+  margin-bottom: 13px;
+}
+.review_position span {
+  display: block;
+}
+.review_info {
+  background: #fff699;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-bottom: 37px;
+}
+.review_info p {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.review_info p span {
+  font-weight: normal;
+}
+.review_text {
+  font-size: 1em;
+  text-align: justify;
+  margin-bottom: 30px;
+  position: relative;
+}
+.review_text1:before {
+  content: '-';
+  position: absolute;
+  left: -10px;
+  transform: scaleX(1.8);
+}
+.quatro {
+  box-sizing: border-box;
+  background: #fcb338;
+  padding: 75px 0 55px;
+}
+.quatro p {
+  max-width: 1103px;
+  margin: 0 auto 30px;
+  text-align: justify;
+}
+.quatro_btn {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.quatro_btn img.btn_link {
+  display: inline-block;
+  animation: pulse 2s infinite;
+  margin-bottom: 30px;
+}
+
+.quatro_btn span {
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 10px;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.link {
+  display: inline-block;
+}
+.nam {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: all 4s;
+  -moz-transition: all 4s;
+  -o-transition: all 4s;
+  transition: all 4s;
+}
+.nam1 {
+  left: 38px;
+  top: 23px;
+}
+.nam2 {
+  left: 88px;
+  top: 45px;
+}
+.nam3 {
+  left: 138px;
+  top: 130px;
+}
+.nam4 {
+  left: 182px;
+  top: 130px;
+}
+.nam5 {
+  left: 235px;
+  top: 170px;
+}
+.nam6 {
+  left: 283px;
+  top: 211px;
+}
+.nam7 {
+  left: 328px;
+  top: 211px;
+}
+.nam8 {
+  left: 378px;
+  top: 211px;
+}
+.nam9 {
+  left: 429px;
+  top: 227px;
+}
+.nam10 {
+  left: 478px;
+  top: 270px;
+}
+.nam11 {
+  left: 525px;
+  top: 244px;
+}
+.nam12 {
+  left: 577px;
+  top: 218px;
+}
+.nam13 {
+  left: 622px;
+  top: 226px;
+}
+.nam14 {
+  left: 665px;
+  top: 159px;
+}
+.nam15 {
+  left: 721px;
+  top: 39px;
+}
+.nam16 {
+  left: 776px;
+  top: 55px;
+}
+.nam17 {
+  left: 823px;
+  top: 162px;
+}
+.nam18 {
+  left: 865px;
+  top: 149px;
+}
+#toTop {
+  position: fixed;
+  bottom: 3%;
+  right: 1%;
+  width: 51px;
+  height: 51px;
+  border-radius: 10px;
+  background-color: #2D2D2D;
+}
+#toTop img {
+  max-width: 60%;
+}
+/*-------------------END MAIN----------------------------------------*/
+/*+++++++++++++++++++START FOOTER +++++++++++++++++++++++++++++++++++*/
+.footer {
+  background: url(footer.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 545px;
+  box-sizing: border-box;
+  padding-top: 215px;
+	margin-bottom: -5px;
+}
+.footer_title {
+  font-family: 'RobotoBlack';
+  font-size: 3em;
+  color: #fff;
+  max-width: 745px;
+  margin: auto;
+  text-transform: uppercase;
+}
+.boxHidded {
+  visibility: hidden;
+  /*  Делаем иконки полностью прозрачными  */
+}
+.fadeInUp,
+.fadeOutDown {
+  visibility: visible;
+  /*  Делаем иконки полностью не прозрачными  */
+}
+/*~~~~~~~~~~~~~~~~~~~MEDIA~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@media only screen and (max-width: 1600px) {
+  .wrap {
+    max-width: 960px;
+  }
+  body {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .wrap {
+    padding: 50px 10px;
+  }
+  .chernigov {
+    top: 92px;
+  }
+  .sumska {
+    top: 116px;
+    right: 30%;
+  }
+  .kharkiv {
+    top: 223px;
+    right: 18%;
+  }
+  .poltava {
+    top: 216px;
+    right: 33%;
+  }
+  .dnepr {
+    top: 337px;
+    right: 30%;
+  }
+  .kyev {
+    top: 182px;
+    right: 50%;
+  }
+  .cherkas {
+    top: 232px;
+    right: 42%;
+  }
+  .kirovograd {
+    top: 332px;
+    right: 40%;
+  }
+  .mikolaev {
+    top: 415px;
+    right: 40%;
+  }
+  .odesa {
+    top: 420px;
+    right: 51%;
+  }
+  .gitomir {
+    top: 145px;
+    right: 60%;
+  }
+  .khmvel {
+    top: 224px;
+    right: 69%;
+  }
+  .ternopil {
+    top: 233px;
+    right: 76%;
+  }
+  .vinica {
+    top: 286px;
+    right: 60%;
+  }
+  h3 br,
+  h2 br {
+    display: none;
+  }
+}
+/*-------------------------------------------*/
+@media only screen and (max-width: 769px) {
+  .chart1 {
+    width: 100%;
+    padding-left: 0;
+  }
+  .un,
+  .dos {
+    background-attachment: scroll !important;
+  }
+  .map_text {
+    font-size: 0.8em;
+    left: 4%;
+    bottom: 175px;
+  }
+  .obl {
+    font-size: 0.7em;
+  }
+  .num,
+  .num1 {
+    width: 50px;
+    height: 20px;
+    line-height: 1.4em;
+  }
+  .year img {
+    width: 50px;
+  }
+  .map_info {
+    right: 65px;
+  }
+  .chernigov {
+    top: 71px;
+  }
+  .sumska {
+    top: 90px;
+    right: 28%;
+  }
+  .kharkiv {
+    top: 170px;
+    right: 18%;
+  }
+  .poltava {
+    top: 163px;
+    right: 33%;
+  }
+  .dnepr {
+    top: 253px;
+    right: 30%;
+  }
+  .kyev {
+    top: 139px;
+    right: 50%;
+  }
+  .cherkas {
+    top: 174px;
+    right: 42%;
+  }
+  .kirovograd {
+    top: 247px;
+    right: 40%;
+  }
+  .mikolaev {
+    top: 309px;
+    right: 40%;
+  }
+  .odesa {
+    top: 326px;
+    right: 51%;
+  }
+  .gitomir {
+    top: 105px;
+    right: 60%;
+  }
+  .khmvel {
+    top: 168px;
+    right: 69%;
+  }
+  .ternopil {
+    top: 172px;
+    right: 76%;
+  }
+  .vinica {
+    top: 217px;
+    right: 60%;
+  }
+  .quatro {
+    padding: 50px 10px;
+  }
+  .bar3_des p {
+    font-size: 0.8em;
+  }
+  .bar3_des p img {
+    max-width: 40px;
+  }
+  .kukyryza2 {
+    max-width: 200px;
+  }
+  .b4_1 {
+    background-size: 100%;
+  }
+  .b4_2 {
+    max-width: 698px;
+    left: 39px;
+  }
+  .nam1 {
+    left: 38px;
+    top: 47px;
+  }
+  .nam2 {
+    left: 75px;
+    top: 69px;
+  }
+  .nam3 {
+    left: 113px;
+    top: 135px;
+  }
+  .nam4 {
+    left: 155px;
+    top: 135px;
+  }
+  .nam5 {
+    left: 194px;
+    top: 170px;
+  }
+  .nam6 {
+    left: 240px;
+    top: 211px;
+  }
+  .nam7 {
+    left: 277px;
+    top: 211px;
+  }
+  .nam8 {
+    left: 320px;
+    top: 211px;
+  }
+  .nam9 {
+    left: 365px;
+    top: 223px;
+  }
+  .nam10 {
+    left: 395px;
+    top: 260px;
+  }
+  .nam11 {
+    left: 435px;
+    top: 235px;
+  }
+  .nam12 {
+    left: 478px;
+    top: 213px;
+  }
+  .nam13 {
+    left: 518px;
+    top: 218px;
+  }
+  .nam14 {
+    left: 545px;
+    top: 159px;
+  }
+  .nam15 {
+    left: 600px;
+    top: 62px;
+  }
+  .nam16 {
+    left: 639px;
+    top: 77px;
+  }
+  .nam17 {
+    left: 680px;
+    top: 167px;
+  }
+  .nam18 {
+    left: 716px;
+    top: 152px;
+  }
+  .b3_1 {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 670px) {
+  .chernigov {
+    top: 60px;
+  }
+  .sumska {
+    top: 77px;
+    right: 28%;
+  }
+  .kharkiv {
+    top: 145px;
+    right: 18%;
+  }
+  .poltava {
+    top: 142px;
+    right: 33%;
+  }
+  .dnepr {
+    top: 222px;
+    right: 30%;
+  }
+  .kyev {
+    top: 124px;
+    right: 50%;
+  }
+  .cherkas {
+    top: 144px;
+    right: 42%;
+  }
+  .kirovograd {
+    top: 215px;
+    right: 40%;
+  }
+  .mikolaev {
+    top: 273px;
+    right: 40%;
+  }
+  .odesa {
+    top: 283px;
+    right: 51%;
+  }
+  .gitomir {
+    top: 94px;
+    right: 60%;
+  }
+  .khmvel {
+    top: 152px;
+    right: 69%;
+  }
+  .ternopil {
+    top: 172px;
+    right: 76%;
+  }
+  .vinica {
+    top: 194px;
+    right: 60%;
+  }
+  .bar3_des {
+    top: 110%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .bar3_des p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .bar3_des p:nth-child(2) {
+    margin-bottom: 10px;
+  }
+  .logo {
+    margin-bottom: 5px;
+  }
+  .header_descr {
+    width: 60%;
+  }
+  .footer_title {
+    padding-left: 10px;
+  }
+}
+/*-------------------------------------------*/
+@media only screen and (max-width: 450px) {
+  body {
+    font-size: 14px;
+  }
+  html,
+  body {
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  #popChart {
+    width: 100% !important;
+  }
+  .social {
+    display: none;
+  }
+  header {
+    min-height: 100vh;
+    height: auto;
+    padding: 0 0 60px;
+    box-sizing: content-box;
+    background-position-x: 58%;
+  }
+  header h1,
+  header p {
+    padding-left: 10px;
+	  
+  }
+	header h1 {width: 70%;}
+  .logo {
+    display: block;
+    padding: 10px 0;
+    background: #14120d70; /*#14120d;*/
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .logo svg {
+    width: 154px;
+  }
+  .wrap {
+    padding: 25px 10px;
+  }
+  .info1 {
+    display: block;
+  }
+  .info1_item_hr {
+    display: none;
+  }
+  .info1_item:first-child {
+    border-bottom: 2px solid #221e1f;
+  }
+  .info1_item span:nth-child(4) {
+    margin-top: 0;
+  }
+  .un,
+  .dos {
+    height: 320px;
+  }
+  h3,
+  h2 {
+    font-size: 20px;
+  }
+  .ch11 {
+    max-height: 160px;
+  }
+  .bg_abs1,
+  .kukyryza,
+  .kukyryza2 {
+    display: none;
+  }
+  .b4_1 {
+    height: 127px;
+  }
+  .b4_2 {
+    max-width: 94%;
+    left: 16px;
+  }
+  .b1 {
+    width: 294px;
+    max-height: 168px;
+  }
+  .b2 {
+    width: 78%;
+    left: 46px;
+  }
+  .bar1 {
+    width: 295px;
+    box-sizing: border-box;
+    margin: 0 auto 25px;
+    transform: scale(1);
+  }
+  .bar1_des {
+    position: relative;
+    right: 0;
+    top: 0;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .bar1_des p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 36%;
+    font-size: 12px;
+  }
+  .bar1_des p:nth-child(2) {
+    margin-bottom: 10px;
+  }
+  .bar1_des p:nth-child(3) {
+    margin: 10px 0 20px;
+  }
+  .bar1_des p img {
+    width: 40px;
+  }
+  .bar3 {
+    transform: scale(1);
+    margin-top: 0;
+  }
+  .b3_1 {
+    width: 295px;
+    height: 160px;
+    margin: auto;
+  }
+  .b3_2 {
+    left: 40px;
+    width: 233px;
+  }
+  .bar3_des {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+  .bar3_des p:nth-child(2) {
+    margin-bottom: 10px;
+  }
+  .obl {
+    font-size: 0.6em;
+  }
+  .num,
+  .num1 {
+    width: 20px;
+    height: 8px;
+    padding-left: 5px;
+    line-height: 1.1em;
+  }
+  .map_info {
+    right: 10px;
+    top: 10px;
+  }
+  .map_info img {
+    width: 25px;
+  }
+  .map_info span {
+    font-size: 0.8em;
+  }
+  .map_text {
+    font-size: 0.6em;
+    left: 4%;
+    bottom: 70px;
+  }
+  .map1,
+  .map2 {
+    width: 320px;
+    height: 221px;
+    display: block;
+    transform: scale(1);
+    margin: 0px auto 0;
+  }
+  .chernigov {
+    top: 29px;
+  }
+  .sumska {
+    top: 35px;
+    right: 29%;
+  }
+  .kharkiv {
+    top: 70px;
+    right: 18%;
+  }
+  .poltava {
+    top: 71px;
+    right: 33%;
+  }
+  .dnepr {
+    top: 107px;
+    right: 30%;
+  }
+  .kyev {
+    top: 60px;
+    right: 50%;
+  }
+  .cherkas {
+    top: 73px;
+    right: 42%;
+  }
+  .kirovograd {
+    top: 104px;
+    right: 40%;
+  }
+  .mikolaev {
+    top: 130px;
+    right: 40%;
+  }
+  .odesa {
+    top: 136px;
+    right: 51%;
+  }
+  .gitomir {
+    top: 48px;
+    right: 60%;
+  }
+  .khmvel {
+    top: 75px;
+    right: 69%;
+  }
+  .ternopil {
+    top: 73px;
+    right: 76%;
+  }
+  .vinica {
+    top: 92px;
+    right: 60%;
+  }
+  .review {
+    display: block;
+  }
+  .review img {
+    width: 125px;
+    margin: 0 auto 15px;
+    display: block;
+  }
+  .review_name,
+  .review_position {
+    text-align: center;
+  }
+  .review_info {
+    margin: 15px auto;
+  }
+  footer {
+    background: url(footer_mob.jpg) no-repeat;
+    padding-top: 50px;
+  }
+  .footer_title {
+    font-size: 28px;
+  }
+  .s2 {
+    right: 0;
+  }
+  .nam {
+    font-size: 10px;
+  }
+  .nam1 {
+    left: 13px;
+    top: 8px;
+  }
+  .nam2 {
+    left: 30px;
+    top: 20px;
+  }
+  .nam3 {
+    left: 44px;
+    top: 42px;
+  }
+  .nam4 {
+    left: 64px;
+    top: 45px;
+  }
+  .nam5 {
+    left: 81px;
+    top: 60px;
+  }
+  .nam6 {
+    left: 98px;
+    top: 74px;
+  }
+  .nam7 {
+    left: 116px;
+    top: 74px;
+  }
+  .nam8 {
+    left: 136px;
+    top: 74px;
+  }
+  .nam9 {
+    left: 152px;
+    top: 90px;
+  }
+  .nam10 {
+    left: 167px;
+    top: 82px;
+  }
+  .nam11 {
+    left: 185px;
+    top: 72px;
+  }
+  .nam12 {
+    left: 200px;
+    top: 78px;
+  }
+  .nam13 {
+    left: 218px;
+    top: 53px;
+  }
+  .nam14 {
+    left: 230px;
+    top: 17px;
+  }
+  .nam15 {
+    left: 253px;
+    top: 26px;
+  }
+  .nam16 {
+    left: 270px;
+    top: 61px;
+  }
+  .nam17 {
+    left: 277px;
+    top: 48px;
+  }
+  .nam18 {
+    left: 300px;
+    top: 34px;
+  }
+  #toTop {
+    width: 30px;
+    height: 30px;
+  }
+  .info1_item {
+    max-width: 320px;
+    width: auto;
+    margin: auto;
+  }
+  .chart1 {
+    padding-top: 46px;
+    transform: scale(1);
+    margin-top: 0;
+  }
+  .ccc,
+  .bbbb {
+    transform: scaleX(0.8);
+  }
+}
+@media (max-width: 1024px) and (max-height: 768px) {
+  header {
+    height: auto;
+    min-height: 100vh;
+  }
+	.footer {background-position: 75% -5%;}
+	br.desctop {display: none}
+}
+
+
+.btn_link-1  {
+	/* display: block; */
+	display: inline-block;
+	animation: pulses 1s infinite;
+	margin-bottom: 30px;
+}
+
+@keyframes pulses {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+br.mobile {
+	display: none;
+}
+@media screen and (max-width: 626px) {
+	br.mobile {
+	display: inline;
+}
+}

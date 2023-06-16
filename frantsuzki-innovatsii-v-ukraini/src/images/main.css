@@ -1,0 +1,496 @@
+@charset "UTF-8";
+.full-os {
+	height: calc(100vh - 50px);
+}
+.full {
+	height: 100vh;
+	margin-top: 100px;
+}
+.full, .full-os {
+	box-sizing: border-box;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0% 0%;
+	position: relative;
+	box-sizing: border-box;
+}
+.hr, .hr2 {
+	border: 1px solid #000;
+	margin: 0 0 75px 0 !important;
+}
+.zag-pidzag {
+	/*idth: 1140px;
+margin-left: auto;
+margin-right: auto;*/
+	max-width: 580px;
+	position: absolute;
+	padding: 50px 54px 60px;
+	bottom: 0;
+	right: 0;
+	background-color: #08338f;
+
+opacity: 0.90;
+	/*bottom: 20px;
+	left: 20px;
+	padding: 20px 20px 20px 40px;
+	font-weight: bold;
+	line-height: 1.2;
+	background-color: rgba(255,255,255,0.71);
+	color: #292828;
+	max-width: 550px;width: auto;*/
+	
+}
+.zag-pidzag .zag {
+	font-size: 30px;
+	line-height: 1.2;
+	margin-bottom: 22px;
+	color: #fff;
+	font-family: 'Roboto', Arial, sans-serif;
+	font-weight: 600;
+}
+.zag-pidzag .pidzag {
+	font-size: 18px;
+	color: #fff;
+	line-height: 1.55;
+}
+
+
+.zag-pidzag-os {
+	left: 35px;
+	bottom: 35px;
+	padding: 0 !important;
+	background-color: rgba(255,255,255,0.00);
+}
+
+.zag-pidzag-os .zag {
+	padding: 30px;
+	background-color: rgba(232,12,12,0.80);
+	margin-bottom: 0;
+	text-transform: uppercase;
+	display: inline-block;
+	color: #fff;
+	font-size: 36px;
+	width: 100%;
+	line-height: 1.23;
+}
+
+
+.zag-pidzag-os .pidzag {
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 300;
+	padding: 30px;
+	background-color: rgba(255,255,255,0.95);
+	color: #000;
+}
+
+
+
+.content {
+	width: 760px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	position: relative;
+	clear: both;
+}
+.content p {
+	font-size: 16px;
+	line-height: 30px;
+	font-family: 'Roboto', Arial, sans-serif;
+	font-weight: lighter;
+	color: #000;
+	margin-top: 30px;
+}
+.content100 {
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: #e6e6e6;
+	border-bottom: 2px solid #014946;
+	border-top: 2px solid #014946;
+	position: relative;
+	clear: both;
+}
+.text-pidzag {
+	font-weight: bold;
+	font-size: 35px;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	color: #014946;
+	border-bottom: 5px solid #014946;
+	padding-bottom: 10px;
+	width: auto;
+	display: table;
+	line-height: 1.1em;
+}
+.tabl {
+	width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+table {
+	width: 100%;
+}
+table th, table td {
+	padding: 10px;
+	position: relative;
+}
+table tbody tr {
+	border-bottom: 1px dotted #9B9B9B;
+}
+table thead {
+	background-color: #014946;
+	color: #FFFFFF;
+}
+table thead p {
+	color: #FFFFFF;
+}
+table p {
+	margin: 0;
+	text-align: center;
+	font-size: 100%;
+	font-size: 95%;
+	line-height: 1.3;
+}
+.tabl-left p {
+	font-weight: bold;
+	text-align: left;
+}
+.content100-quote {
+	width: 100%;
+	background-color: #08338f;
+}
+.content100-quote .quote {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #ffffff;/*padding-top: 25px;
+padding-bottom: 25px;*/
+}
+.content100-quote blockquote {
+	margin: 0;
+	color: #474C4F;
+	padding: 20px;
+	position: relative;
+	text-align: center;
+	/*text-transform: uppercase;*/
+	font-family: 'Lato', sans-serif;
+	border-left-style: none;
+}
+.content100-quote blockquote:before {
+	content: "\f10d";
+	font-family: FontAwesome;
+	position: absolute;
+	z-index: 2;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 14px;
+	color: #ffffff;
+	font-size: 30px;
+	background: #08338f;
+	padding: 0 15px;
+	font-style: normal;
+	font-weight: normal;
+}
+.content100-quote blockquote:after {
+	content: "";
+	position: absolute;
+	left: 15px;
+	top: 20px;
+	right: 15px;
+	height: 4px;
+	border-top: 1px dotted #ffffff;
+	border-bottom: 1px dotted #ffffff;
+}
+.content100-quote blockquote p {
+	font-size: 25px;
+	letter-spacing: .05em;
+	line-height: 1.4;
+	margin-top: 25px;
+	font-weight: 300;
+	color: #FFFFFF;
+	/*font-style: italic;*/
+}
+.content100-quote blockquote cite {
+	font-style: normal;
+	font-weight: 300;
+}
+.blockquote-gero {
+	position: absolute;
+	top: 35px;
+	left: 35px;
+}
+.blockquote-gero blockquote {
+	padding: 30px 20px 30px 65px;
+	width: 400px;
+	background-color: #DB532B;
+	color: white;
+	box-shadow: 0 5px 2px rgba(0,0,0,0.1);
+	position: relative;
+	transition: background-color 0.6s linear;
+	font-style: italic;
+}
+.blockquote-gero blockquote:after {
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	top: 100%;
+	border: solid transparent;
+	border-top-color: #DA532B;
+	border-left-color: #DA532B;
+	border-width: 10px;
+	left: 10%;
+}
+.blockquote-gero blockquote:before {
+	color: #ffffff;
+	content: "“";
+	display: block;
+	font-size: 90px;
+	left: 5px;
+	position: absolute;
+	top: -10px;
+	line-height: 1.5;
+	font-style: normal;
+	font-weight: bold;
+}
+.img100 {
+	width: 100%;
+}
+.img100 img {
+	width: 100%;
+}
+.coment {
+	max-width: 760px;
+
+}
+.coment .avtor {
+	position: relative;
+	
+	text-align: center;
+	height: 100%;
+	display: table-cell;
+	vertical-align: top;
+	margin-left: 0;
+}
+.avtor-richt {
+	
+width: 120px;
+		padding-right: 32px;
+}
+.avtor-left {padding-left: 32px; float: right; width: 152px;}
+
+.avtor-foto { width: 120px; height: 120px; position: relative; margin: 0 auto;}
+.coment .avtor img {
+	width: 120px;
+	height: auto;
+	border-radius: 100%;
+	margin: 0 auto;
+}
+.coment .avtor .name {
+	font-weight: bold;
+	color: #2c2962;
+}
+.coment .avtor .posada {
+	font-size: 80%;
+	line-height: 1.5;
+}
+.str  {
+	    position: absolute;
+
+top: 50%;
+width: 0;
+height: 0;
+border: 12px solid;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+
+
+}
+
+.str-left {border-color: #fff #fff transparent transparent; right: -34px;margin-left: 35px;
+}
+.str-richt {border-color: #fff transparent transparent #fff; margin-left: 35px; left: -69px;}
+
+.coment .txt {
+	display: table-cell;
+	vertical-align: middle;
+		padding: 30px 35px;
+border-radius: 10px;
+background-color: #fff;
+}
+
+.coment .txt p{margin-top: 0;}
+.sl img {
+	width: 100%;
+}
+.separate-line {
+	width: 550px;
+	height: 25px;
+	background-image: url(separator-line.png);
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
+	background-size: 100% auto;
+	margin: 35px auto;
+}
+.avtor-all .avtor {
+	width: 50%;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+.avtor-all .avtor img {
+	width: 200px;
+	height: auto;
+	border-radius: 100%;
+}
+.avtor-all .avtor .avtor-name-txt {
+	font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+	.content100-quote .quote {width: 100%;}
+	.str {display: none;}
+.avtor-all .avtor {
+	width: 100%;
+	float: none;
+}
+.avtor-all .avtor img {
+	width: 100px;
+	height: auto;
+	border-radius: 100%;
+}
+.coment .avtor img {
+	width: 115px;
+	height: auto;
+}
+.separate-line {
+	width: 100%;
+	height: 20px;
+}
+.coment .avtor {
+	display: block;
+	float: none;
+	border: none;
+	padding: 0;
+	width: 100%;
+	border-bottom: 1px dotted #808080;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+}
+.coment .txt {
+	padding: 15;
+	display: block;
+}
+table thead {
+	display: none;
+}
+table td {
+	width: 100%;
+	display: block;
+	clear: both;
+	border-top: 1px dotted #9B9B9B;
+	vertical-align: middle;
+}
+table td p {
+	margin-left: 70%;
+	text-align: right;
+	font-weight: bold;
+}
+table td:before {
+	content: attr(data-label);
+	width: 69%;
+	line-height: 1.2;
+	display: block;
+	float: left;
+}
+.tabl-left {
+	background-color: #014946;
+	color: #FFFFFF;
+}
+.tabl-left p {
+	color: #ffffff;
+	margin-left: 0;
+	text-align: center;
+}
+.full-os {
+	margin-top: 60px;
+}
+.full, .full-os {
+	height: auto;
+	box-sizing: border-box;
+	background-size: 0;
+	background-repeat: no-repeat;
+	position: relative;
+	background-image: none !important;
+	display: block;
+}
+.zag-pidzag {
+	position: initial;
+	width: 100%;
+	margin: 0;
+	/*background-color: #EFEFEF;*/
+	padding: 0 10px 10px 10px;
+}
+.zag-pidzag .zag {
+	font-size: 30px;
+	/*padding: 0 0 6px 10px;
+	border-left: 10px solid #707070;*/
+	/*border-bottom: 3px solid #707070;*/
+	/*margin-bottom: 10px;*/
+}
+.zag-pidzag .pidzag {
+	font-size: 15px;
+}
+.foto-768 {
+	display: block;
+	width: 100%;
+}
+.content {
+	width: 100%;
+	margin-top: 10px;
+	padding: 0 15px;
+}
+.text-pidzag {
+	font-size: 28px;
+}
+.blockquote-gero {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.blockquote-gero blockquote:after {
+	display: none;
+}
+.blockquote-gero blockquote {
+	width: 100%;
+}
+}
+
+@media screen and (max-width: 479px) {
+table td:before {
+	content: attr(data-label);
+	width: 100%;
+	line-height: 1.2;
+	display: block;
+	float: none;
+	text-align: center;
+	color: #696969;
+}
+table td p {
+	margin-left: 0;
+	text-align: center;
+	font-weight: bold;
+}
+}
+
+@media screen and (min-width: 769px) {
+.foto-768 {
+	display: none;
+}
+}
